@@ -2,7 +2,7 @@
 
 Bare-bones Sitecore XM environment for headless (cross platform) development.
 
-This is the main repository, when you have [built and published the images](#build-and-share-images-on-a-private-registry), see [sitecoreops/sitecore-reforge-example-blackbox](http://github.com/sitecoreops/sitecore-reforge-example-blackbox) for example compose setup for consuming the images and [sitecoreops/sitecore-reforge-example-netcore](http://github.com/sitecoreops/sitecore-reforge-example-netcore) for a rendering host example.
+This is the main repository, when you have [built and published the images](#build-and-share-images-on-a-private-registry), see [pbering/sitecore-reforge-example-blackbox](http://github.com/pbering/sitecore-reforge-example-blackbox) for example compose setup for consuming the images and [pbering/sitecore-reforge-example-netcore](http://github.com/pbering/sitecore-reforge-example-netcore) for a rendering host example.
 
 ## Goals
 
@@ -53,4 +53,4 @@ Run:
 1. `docker-compose build`
 1. `docker-compose push cm mssql mssql-init`
 
-Check [http://github.com/sitecoreops/sitecore-reforge-example-blackbox](http://github.com/sitecoreops/sitecore-reforge-example-blackbox) for example usage.
+Check [http://github.com/pbering/sitecore-reforge-example-blackbox](http://github.com/pbering/sitecore-reforge-example-blackbox) for example usage.
