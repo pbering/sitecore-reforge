@@ -1,0 +1,9 @@
+﻿---
+ID: "5b01e882-6235-4bb4-acc5-4d5b1df53f6d"
+Parent: "30f54115-31d7-4753-8840-e1cc8840c3bb"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Foundation/ReforgeBlackBox/Main
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/BlackBox/Main.cshtml

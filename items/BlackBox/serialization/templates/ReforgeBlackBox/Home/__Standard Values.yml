@@ -1,0 +1,14 @@
+﻿---
+ID: "d21ac338-c2f8-4b82-8631-ed82d4c943e6"
+Parent: "bf95d59c-e308-44ad-86f2-d6a1ea5d3e8b"
+Template: "bf95d59c-e308-44ad-86f2-d6a1ea5d3e8b"
+Path: /sitecore/templates/Foundation/ReforgeBlackBox/Home/__Standard Values
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5B01E882-6235-4BB4-ACC5-4D5B1DF53F6D}" />
+    </r>

@@ -1,0 +1,24 @@
+services:
+  mssql:
+    volumes:
+      - .\docker\data\mssql:C:\data:rw
+
+  mssql-init:
+    depends_on:
+      mssql:
+        condition: service_healthy
+
+  cm:
+    ports:
+      - "44080:80"
+    environment:
+      SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,RobotDetectionOff
+    volumes:
+      - .\docker\deploy\platform:C:\deploy:rw
+      - ${HOST_LICENSE_FOLDER}:C:\license:ro
+    entrypoint: powershell.exe -Command "& C:\tools\entrypoints\iis\Development.ps1"
+    depends_on:
+      solution:
+        condition: service_started
+      mssql-init:
+        condition: service_healthy

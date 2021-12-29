@@ -1,0 +1,17 @@
+# folders
+.git
+.vs
+.vscode
+docker
+packages
+**/bin/
+**/obj/
+**/out/
+
+# files
+.gitignore
+.gitattributes
+*Dockerfile
+docker-compose*
+**/*.md
+*.ps1

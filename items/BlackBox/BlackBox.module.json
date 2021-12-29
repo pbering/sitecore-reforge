@@ -1,0 +1,20 @@
+{
+    "namespace": "BlackBox",
+    "references": [],
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Foundation/ReforgeBlackBox"
+            },
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Foundation/ReforgeBlackBox"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content/BlackBox"
+            }
+        ]
+    }
+}

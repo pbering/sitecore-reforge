@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PlatformVersion>[10.2.0]</PlatformVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Update="Sitecore.Kernel" Version="$(PlatformVersion)" />
+    <PackageReference Update="Sitecore.Assemblies.Platform" Version="$(PlatformVersion)" />
+    <PackageReference Update="System.Memory" Version="[4.5.4]" />
+  </ItemGroup>
+</Project>
